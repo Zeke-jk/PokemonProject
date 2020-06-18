@@ -50,7 +50,8 @@ bugFunction = function () {
     mainMenu.style.borderBottomColor = "green";
     clearPokemon();
     for (let i=0; i<bugType.length; i++)
-        bugType[i].style.display = "block";
+        bugType[i].style.display = "block";    
+        
 }
 
 darkFunction = function () {
